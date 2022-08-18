@@ -1,0 +1,26 @@
+:root {
+    --main-color: #7a4242;
+    --seconed-color: #bb959b;
+}
+body {
+    font-family: 'Maven Pro', sans-serif;
+    background-color: var(--main-color);
+}
+.form {
+    background-color: var(--seconed-color);
+    color: #000;
+}
+.btn {
+    background-color: var(--main-color);
+    color: #fff;
+    border: 1px solid var(--main-color) !important;
+}
+.btn:hover {
+    background-color: var(--seconed-color);
+    color: #000;
+    border: 1px solid var(--main-color) !important;
+}
+.result {
+    background-color: var(--seconed-color);
+    color: #000;
+}
